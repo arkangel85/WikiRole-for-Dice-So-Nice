@@ -1,0 +1,33 @@
+{
+  "title": "WikiRole for Dice So Nice",
+  "description": "Additional Dice presets and themes for Dice So Nice. Requires Dice So Nice module to work.",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Arkangel",
+      "url": "https://discord.gg/gg3rKg6ZU8",
+      "discord": "arkangel#9056",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "scripts/dice.js"
+  ],
+  "id": "wikirole_dice",
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "9.269"
+  },
+  "manifest": "https://php.arkadnd.site/fvttmoduli/wikirole/dice/module.json",
+  "download": "https://php.arkadnd.site/fvttmoduli/wikirole/dice/wikirole_dice.zip"
+}
